@@ -13,9 +13,10 @@
     font-size: 140px;
     font-weight: bold;
     position: absolute;
-    top: 18%;
+    top: 20%;
     left: 52%;
     color: white;
+    cursor: default;
 }
 #game{
     font-family: calibri;
@@ -25,12 +26,13 @@
     left: 53%;
     color: white;
     font-weight: lighter;
+    cursor: default;
 }
 #jugar{
     font-family: calibri;
     font-size: 30px;
     position: absolute;
-    top: 68%;
+    top: 65%;
     left: 60.5%;
     text-decoration: none;
     color: white;
@@ -42,9 +44,95 @@
     display: flex;
     justify-content: center;
     opacity: 45%;
+    cursor: pointer;
 }
 #jugar:hover{
     opacity: 100%;
 
+    transition: 0.2s all;
+}
+#facil{
+    font-family: calibri;
+    font-size: 30px;
+    position: absolute;
+    top: 68%;
+    left: 50%;
+    text-decoration: none;
+    color: white;
+    background-color: transparent;
+    border: 2px solid white;
+    padding: 5px;
+    width: 120px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    opacity: 45%;
+}
+#facil:hover{
+    opacity: 100%;
+    transition: 0.2s all;
+}
+#facil:focus
+{
+    color: red;
+    border: none;
+    transition: 0.2s all;
+}
+
+#normal {
+    font-family: calibri;
+    font-size: 30px;
+    position: absolute;
+    top: 68%;
+    left: 60%;
+    text-decoration: none;
+    color: white;
+    background-color: transparent;
+    border: 2px solid white;
+    padding: 5px;
+    width: 140px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    opacity: 45%;
+}
+
+#normal:hover {
+    opacity: 100%;
+    transition: 0.2s all;
+}
+
+#normal:focus {
+    color: red;
+    border: none;
+    transition: 0.2s all;
+}
+
+#dificil {
+    font-family: calibri;
+    font-size: 30px;
+    position: absolute;
+    top: 68%;
+    left: 71%;
+    text-decoration: none;
+    color: white;
+    background-color: transparent;
+    border: 2px solid white;
+    padding: 5px;
+    width: 140px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    opacity: 45%;
+}
+
+#dificil:hover {
+    opacity: 100%;
+    transition: 0.2s all;
+}
+
+#dificil:focus {
+    color: red;
+    border: none;
     transition: 0.2s all;
 }

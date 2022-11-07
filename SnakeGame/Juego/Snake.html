@@ -1,24 +1,47 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Snake</title>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <meta charset="utf-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+    <title>snake</title>
+
+    <meta name="viewport" content="width=device-width; initial-scale=1.0">
+
+    <script src="https://kit.fontawesome.com/983bf74f23.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="/favicon.ico">
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
     <link rel="stylesheet" href="style.css">
-    <script src="main.js"></script>
     <link rel="shortcut icon" href="iconSnake.png">
 </head>
 
-<body>
-    <div id="contenido">
+<body onkeydown="control(event);">
 
-        <canvas id="Cam"></canvas>
-
+    
+    
+    <script src="main.js"></script>
+    <canvas id="canvas" width="600" height="600"></canvas>
+    <div id="capa"></div>
+    <div id="vertical"></div>
+    <div id="horizontal"></div>
+    <div id="circulo"></div>
+    <i class="fa-solid fa-arrow-right fa-3x" id="derecha"></i>
+    <i class="fa-solid fa-arrow-up fa-3x" id="arriba"></i>
+    <i class="fa-solid fa-arrow-down fa-3x" id="abajo"></i>
+    <i class="fa-solid fa-arrow-left fa-3x" id="izquierda"></i>
+    
+    
+    <p id="comentarios">DEJANOS TU COMENTARIOS</p>
+    <div id="formulario">
+        <form action="form.php" method="post" id="formulario">
+            <input type="text" name="name" id="name" class="name" placeholder="NOMBRE Y APELLIDO">
+            <input type="text" name="mail" id="mail" class="email" placeholder="CORREO">
+            <textarea name="message" class="message" placeholder="MENSAJE ... " id="message"></textarea>
+            <button type="submit" class="btn btn-primary">ENVIAR</button>
+        </form>
     </div>
-
 </body>
 
 </html>
