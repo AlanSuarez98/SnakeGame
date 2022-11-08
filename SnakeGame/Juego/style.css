@@ -187,3 +187,17 @@ canvas
     left: 40px;
 }
 
+#snakeletra{
+    position: absolute;
+    width: 250px;
+    top: 15%;
+    left: 35px;
+}
+#Snake{
+    position: absolute;
+    top: 45%;
+    left: 60px;
+    width: 210px;
+    height: 240px;
+}
+
