@@ -1,5 +1,5 @@
 //Variables globales
-var velocity = 40;
+var velocity = 70;
 var size = 10;
 
 
